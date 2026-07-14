@@ -1,0 +1,6 @@
+{
+  "name": "Cricket 24 Simulator",
+  "description": "A high-fidelity 3D-perspective cricket simulation game with realistic physics, fully interactive batting and bowling, stadium atmosphere audio synthesis, and professional broadcast overlays.",
+  "requestFramePermissions": [],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}

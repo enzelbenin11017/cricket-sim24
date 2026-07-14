@@ -1,0 +1,19 @@
+@import url('https://fonts.googleapis.com/css2?family=Outfit:wght@400;500;700;900&family=JetBrains+Mono:wght@400;500;700&display=swap');
+@import "tailwindcss";
+
+@theme {
+  --font-sans: "Outfit", ui-sans-serif, system-ui, sans-serif;
+  --font-mono: "JetBrains Mono", ui-monospace, SFMono-Regular, monospace;
+  --color-brand-emerald: #00FF85;
+  --color-brand-slate: #0A0F0D;
+  --color-brand-sky: #00A3FF;
+}
+
+@layer utilities {
+  .text-glow-emerald {
+    text-shadow: 0 0 10px rgba(0, 255, 133, 0.4);
+  }
+  .box-glow-emerald {
+    box-shadow: 0 0 15px rgba(0, 255, 133, 0.15);
+  }
+}
